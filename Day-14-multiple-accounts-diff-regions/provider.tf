@@ -1,8 +1,5 @@
-provider "aws" {
-    profile = "dev"
-    alias = "dev-account"
-    region = "us-east-1"
-  
+provider "aws" {  
+    
 }
 provider "aws" {
     profile = "test"

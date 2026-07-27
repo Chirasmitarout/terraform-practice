@@ -1,9 +1,8 @@
 resource "aws_s3_bucket" "dev_bucket" {
-  bucket   = "chhhhh..."
-  provider = aws.dev-account
+  bucket = "chirasmita-dev-bucket"
 }
 
 resource "aws_s3_bucket" "test_bucket" {
-  bucket   = "chhhhh..."
+  bucket   = "chirasmita-test-bucket"
   provider = aws.test-account
 }
