@@ -1,5 +1,6 @@
 vpc_cidr = "10.0.0.0/16"
 vpc_name = "chiru-vpc"
+region = "us-east-1"
 
 subnet_cidr = "10.0.1.0/24"
 subnet_name = "chiru-subnet"
